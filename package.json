@@ -1,0 +1,25 @@
+{
+  "name": "check-nodejs-for-latest-distro",
+  "version": "1.0.0",
+  "description": "This will check nodeJs for a new integer update, and send a push notification if a new update exists",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.github.com/audstanley/checkNodeJsForLatestDistro"
+  },
+  "keywords": [
+    "nodeJs",
+    "update",
+    "checker"
+  ],
+  "author": "Richard Stanley",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "node-schedule": "^1.2.0",
+    "pushover-notifications": "^0.2.4"
+  }
+}
