@@ -11,6 +11,14 @@ npm install;
 ```
 
 Edit app.js and change the pushover API user tokens and app tokens to your own.
+These variables:
+```js
+let p = new push({
+	user: "AAAAAAAAAAAAAAAAAAAAAAAAAA",	//change the user API key
+	token: "BBBBBBBBBBBBBBBBBBBBBBBBBB",	//and the token API key
+})
+```
+
 Then 
 
 ```sh
