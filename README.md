@@ -24,3 +24,4 @@ Then
 ```sh
 node app.js
 ```
+A query every ten minutes at about 50Kb per query runs around 206Mb a month in queries.  I set my script (personally) to run once an hour which should cost around 35 Mb a month.
