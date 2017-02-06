@@ -31,7 +31,7 @@ let job = schedule.scheduleJob('*/20 * * * * *', function() {
 
 })
 
-console.log("testing")
+
 
 
 let getLatest = (str) => {
