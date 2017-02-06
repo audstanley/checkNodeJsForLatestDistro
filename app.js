@@ -33,7 +33,6 @@ let job = schedule.scheduleJob('*/20 * * * * *', function() {
 
 
 
-
 let getLatest = (str) => {
 	return str.match(regex);
 }
