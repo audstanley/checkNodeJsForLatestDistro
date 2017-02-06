@@ -24,14 +24,14 @@ let job = schedule.scheduleJob('*/20 * * * * *', function() {
 			version = a;
 		}
 		else if(a !== version) {
-			p.send(msg, function(err, result) {if(err) throw err; console.log(result);})	
+			p.send(msg, function(err, result) {if(err) throw err; console.log(result);})
 		}
 	})
 
 
 })
 
-
+console.log("running");
 
 
 
