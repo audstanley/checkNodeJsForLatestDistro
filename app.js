@@ -9,7 +9,7 @@ let p = new push({
 	token: "BBBBBBBBBBBBBBBBBBBBBBBBBB",	//token API key
 })
 
-let job = schedule.scheduleJob('*/20 * * * * *', function() {
+let job = schedule.scheduleJob('0 */10 * * * *', function() {
 	console.log("this should be every ten minutes");
 	fetch('https://nodejs.org/dist').then(function(res) {
 		return res.text();
