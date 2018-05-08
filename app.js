@@ -10,7 +10,7 @@ let p = new push({
 })
 
 let job = schedule.scheduleJob('0 */10 * * * *', function() {
-	console.log("this should be every ten minutes");
+	console.log("this will run every hour");
 	fetch('https://nodejs.org/dist').then(function(res) {
 		return res.text();
 	}).then(function(body) {
